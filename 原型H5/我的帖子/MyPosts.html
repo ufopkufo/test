@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>我的帖子</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/page_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/page_1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+    <script>
+      window.onload = function ()
+      {
+        var oBtn = document.getElementsByTagName("button")[0];
+        var oIme = document.getElementById("ime");
+        var oClose = document.getElementById("close"); 	
+        var style = oIme.style;
+        oBtn.onclick = function()
+        {		
+          style.display = style.display == "block" ? "none" : "block"
+        };
+        oClose.onclick = function()
+        {
+          style.display = "none"	
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+      
+      <!-- 校徽 -->
+      <div id="schoolbadge" class="ax_default image">
+        <img id="schoolbadge_img" class="img " src="../图片/校徽.jpg"/>
+        <div id="schoolbadge_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 广场 -->
+      <a href="../广场/Square.html">
+        <div id="square" class="ax_default button">
+            <div id="square_div" class=""></div> 
+            <div id="square_text" class="text ">
+              <p><span style="text-decoration:none;">广场</span></p>
+            </div>
+          </div>
+        </a>
+
+      <!-- 圈子 -->
+      <a href="../圈子/Group.html">
+        <div id="group" class="ax_default button">
+          <div id="group_div" class=""></div>
+          <div id="group_text" class="text ">
+            <p><span style="text-decoration:none;">圈子</span></p>
+          </div>
+        </div>
+      </a>
+
+      <!-- 刷新首页 -->
+      <a href="../主界面/MainFrame.html">
+        <div id="firstpage" class="ax_default button">
+          <div id="firstpage_div" class=""></div>
+          <div id="firstpage_text" class="text ">
+            <p><span style="text-decoration:none;">返回首页</span></p>
+          </div>
+        </div>
+      </a>
+
+      <!-- 搜索框 -->
+      <div id="searchframe" class="ax_default box_1">
+        <div id="searchframe_div" class=""></div>
+        <div id="searchframe_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 搜索按钮 -->
+      <div id="search" class="ax_default primary_button">
+        <div id="search_div" class=""></div>
+        <div id="search_text" class="text ">
+          <p><span style="text-decoration:none;">搜索</span></p>
+        </div>
+      </div>
+
+      <!-- 消息中心 -->
+      <a href="../消息中心/MessageCenter.html">
+        <div id="message" class="ax_default primary_button">
+          <div id="message_div" class=""></div>
+          <div id="message_text" class="text ">
+            <p><span style="text-decoration:none;">消息中心</span></p>
+          </div>
+        </div>
+      </a>
+
+      <!-- 用户头像 -->
+      <div id="figure" class="ax_default image" style="position: absolute; z-index: 10">
+        <div id="outer">
+          <button><img src="../图片/个人头像.jpg"/></button>
+          <ul id="ime">
+              <li><a href="../个人主页/MyZone.html">我的主页</a></li>
+              <li><a href="../个人动态/MyAtivity.html">我的动态</a></li>
+              <li><a href="../我的功能/Function.html">我的功能</a></li>
+              <li><a href="../登陆界面/LogInFrame.html">退出登录</a></li>
+          </ul>
+        </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u0" class="ax_default box_2">
+        <div id="u0_div" class=""></div>
+        <div id="u0_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1" class="ax_default box_1">
+        <div id="u1_div" class=""></div>
+        <div id="u1_text" class="text ">
+          <p><span style="text-decoration:none;">在 XXX 圈子里 发表了名为 关于软件工程那些事 的帖子</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2" class="ax_default box_1">
+        <div id="u2_div" class=""></div>
+        <div id="u2_text" class="text ">
+          <p><span style="text-decoration:none;">我的帖子</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u3" class="ax_default box_1">
+        <div id="u3_div" class=""></div>
+        <div id="u3_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4" class="ax_default box_1">
+        <div id="u4_div" class=""></div>
+        <div id="u4_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5" class="ax_default box_1">
+        <div id="u5_div" class=""></div>
+        <div id="u5_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6" class="ax_default box_1">
+        <div id="u6_div" class=""></div>
+        <div id="u6_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7" class="ax_default box_3">
+        <div id="u7_div" class=""></div>
+        <div id="u7_text" class="text ">
+          <p><span style="text-decoration:none;">2020-02-02</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u8" class="ax_default box_3">
+        <div id="u8_div" class=""></div>
+        <div id="u8_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u9" class="ax_default box_3">
+        <div id="u9_div" class=""></div>
+        <div id="u9_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u10" class="ax_default box_3">
+        <div id="u10_div" class=""></div>
+        <div id="u10_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u11" class="ax_default box_3">
+        <div id="u11_div" class=""></div>
+        <div id="u11_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
